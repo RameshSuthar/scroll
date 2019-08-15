@@ -1,0 +1,62 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: #4696e5;
+    color: #ffffff;
+    justify-items: center;
+ }
+
+ .container{
+     color: ffffff;
+     padding: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     line-height: 1.5em;
+     letter-spacing: -0.015em;
+ }
+.scroll, .scrollopp{
+    margin: 10px;
+    box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
+    border-radius: 6px;
+    overflow: auto;
+    position: relative;
+}
+
+select {
+    width: 470px ;
+    height: 300px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: #4696e5;
+    color: #ffffff;
+    border-style: none;
+}
+
+#firstList::-webkit-scrollbar , #secondList::-webkit-scrollbar{
+    background-color: #aaa;
+    width: 8px;
+    height: 8px;
+}
+
+#firstList::-webkit-scrollbar-thumb , #secondList::-webkit-scrollbar-thumb{
+    background: #9ce5f0;
+}
+
+.content{
+    color: whitesmoke;
+    font-size: 80px;
+    font-family: fantasy;
+    font-weight: 500;
+    font-variant-caps: all-petite-caps;
+    text-align: center;
+}
+
+footer{
+    color: whitesmoke;
+    font-size: 19px;
+    text-align: center;
+}
