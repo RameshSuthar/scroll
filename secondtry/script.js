@@ -3,7 +3,9 @@
   var isSyncingRightScroll = false;
   var leftDiv = document.getElementById('firstList');
   var rightDiv = document.getElementById('secondList');
-
+  (function(){
+    rightDiv.scrollTop = parseInt(rightDiv.scrollHeight);
+  })();
   leftDiv.onscroll = function() {
     if (!isSyncingLeftScroll) {
       isSyncingRightScroll = true;
